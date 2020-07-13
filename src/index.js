@@ -1,5 +1,5 @@
 import App from './components/App.svelte';
 
-const App = App({
+const app = new App({
   target: document.querySelector('main'),
 });
